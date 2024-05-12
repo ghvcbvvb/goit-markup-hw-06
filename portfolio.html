@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Portfolio Page-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="node_modules/modern-normalize/modern-normalize.css"/>
+</head>
+<body>
+
+    <!--Header with Company's Abouts -->
+
+    <header>
+        <h3>
+            <a class="logo-h" href="#"><span class="logo-item">Web</span>Studio</a>
+        </h3>  
+
+        <!--Local Navigables-->
+
+        <nav>
+            <ul>
+                <li><a class="link-menu" href="index.html">Studio</a></li>
+                <li><a class="link-menu active" href="portfolio.html">Portfolio</a></li>
+                <li><a class="link-menu" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <!--Contact Data-->
+
+        <ul class="header-contact-list">
+            <li>
+                <a href="mailto:info@devstudio.com">
+                    <svg class="icon-h"><use href="./images/socialnmedia-icons.svg#icon-envelope"></use></svg>
+                </a>
+                <a class="link-h" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li>
+                <a href="tel:+1212-772-4150">
+                    <svg class="icon-h"><use href="./images/socialnmedia-icons.svg#icon-smartphone"></use></svg>
+                </a>
+                <a class="link-h" href="tel:+1212-772-4150">+1 212-772-4150</a></li>
+        </ul>
+    </header>
+
+    <!--Main Content-->
+
+    <main>
+
+        <!--Filters section-->
+
+            <ul class="buttons">
+                <li>
+                    <button class="filter-button" type="button">All</button>
+                </li>
+                <li>
+                    <button class="filter-button" type="button">Web-sites</button>
+                </li>
+                <li>
+                    <button class="filter-button" type="button">Apps</button>
+                </li>
+                <li>
+                    <button class="filter-button" type="button">Design</button>
+                </li>
+                <li>
+                    <button class="filter-button" type="button">Marketing</button>
+                </li>
+            </ul>
+
+        <!--Projects section-->
+
+        <section class="portfolio-cards">
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                    <img src="images/portfolio-techduck.jpg" alt="A Web-site page displayed on a laptop" width="370" height="294">
+                </div>
+                <p class="project-item">Technoduck</p>
+                <p class="project-type">Web-site</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-poster.jpg" alt="Two players fighting for the ball" width="370" height="294">
+                </div>
+                <p class="project-item">Poster New Orlean vs Golden Star</p>
+                <p class="project-type">Design</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-app-restaurant.jpg" alt="Restaurant's logo" width="370"
+                        height="294">
+                </div>
+                <p class="project-item">Seafood Restaurant</p>
+                <p class="project-type">Apps</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-pr-prime.jpg" alt="Black headphones" width="370" height="294">
+                </div>
+                <p class="project-item">Project Prime</p>
+                <p class="project-type">Marketing</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-boxes.jpg" alt="Two cardboard boxes" width="370" height="294">
+                </div>
+                <p class="project-item">Project Boxes</p>
+                <p class="project-type">Apps</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-inspirations.jpg" alt="A Web-site page on a PC display" width="370" height="294">
+                </div>
+                <p class="project-item">Project Boxes</p>
+                <p class="project-type">Apps</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-limited-edition.jpg" alt="An open book" width="370" height="294">
+                </div>
+                <p class="project-item">Limited Edition</p>
+                <p class="project-type">Design</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                    <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-pr-lab.jpg" alt="A hanging paper tag" width="370" height="294">
+                </div>
+                <p class="project-item">Project LAB</p>
+                <p class="project-type">Marketing</p>
+            </div>
+            <div class="port-card">
+                <div class="img-overflowed">
+                        <p class="dscr-overflow">Text to be delivered by the Client.</p>
+                    <img src="images/portfolio-business.jpg" alt="Hends tapping in the app on the laptop on a table" width="370" height="294">
+                </div>
+                <p class="project-item">Growing Business</p>
+                <p class="project-type">Apps</p>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer with Company's contacts section-->
+    
+    <footer>
+        <div class="footer-contact">
+            <h3>
+                <a class="logo-f" href="#"><span class="logo-item">Web</span>Studio</a>
+            </h3>
+            <address>
+            <ul>
+                <li>695 Park Ave, NY 10065, USA</li>
+                <li><a class="link-f" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link-f" href="tel:+1212-772-4150">+1 212-772-4150</a></li>
+            </ul>
+            </address>
+        </div>
+        <div class="footer-social"> 
+            <p>FIND US ON</p>
+            <ul class="footer-social__line">
+                <li>
+                    <a href="">
+                        <svg class="icon"><use href="./images/socialnmedia-icons.svg#icon-instagram"></use></svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg class="icon"><use href="./images/socialnmedia-icons.svg#icon-twitter"></use></svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg class="icon"><use href="./images/socialnmedia-icons.svg#icon-facebook"></use></svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg class="icon"><use href="./images/socialnmedia-icons.svg#icon-linkedin"></use></svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-subscribe">
+            <p>SUBSCRIBE TO THE NEWSLETTER</p>
+            <input type="email" name="email" placeholder="E-mail">
+            <button class="large-btn" type="submit">
+                Subscribe
+                <svg class="icon-send">
+                    <use href="./images/forms-icons.svg#icon-send"></use>
+                </svg>
+            </button>
+        </div>
+    </footer>
+</body>
+</html>
